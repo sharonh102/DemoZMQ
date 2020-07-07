@@ -9,3 +9,19 @@ The push/pull pattern is useful for pipelined workloads where a worker process p
 It's also useful for implementing traditional message queues.
 
 ![alt text](https://github.com/booksbyus/zguide/raw/master/images/fig5.png)
+
+## Run client
+
+```javascript
+./zmq_pusher_client <index>
+```
+
+## Run server
+
+```javascript
+./zmq_puller_server
+```
+
+---
+
+

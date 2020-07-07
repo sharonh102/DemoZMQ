@@ -1,0 +1,4 @@
+# to build app:
+cd build
+cmake ..
+make
